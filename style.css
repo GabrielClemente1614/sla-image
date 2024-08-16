@@ -2,14 +2,18 @@ body {
     margin: 0;
     padding: 0;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
     display: flex;
+    background-color: rgb(120, 194, 194);
+  
 
 
 }
+
+
 
 .slider {
     width: 100%;
@@ -30,6 +34,9 @@ body {
 
 .slide img {
     width: 100%;
+    max-height: 400px;
+    min-height: 400px;
+    
     
     
 }
@@ -70,15 +77,15 @@ body {
  }
 
  #radio2:checked ~ .first {
-    margin-left: -25%;
+    margin-left: -20%;
  }
 
  #radio3:checked ~ .first {
-    margin-left: -50%;
+    margin-left: -40%;
  }
 
  #radio4:checked ~ .first {
-    margin-left: -75%;
+    margin-left: -60%;
  }
 
  .navigation-auto div {
@@ -118,5 +125,14 @@ body {
 
  #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
+ }
+
+ .conteudo {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: gold;
+   text-align: justify;
+   font-weight: bold;
+   background-image: url(aniversario-de-gramado-quatro-curiosidades-sobre-a-cidade-conexao123.jpg);
+   max-width: 300px;
  }
 
