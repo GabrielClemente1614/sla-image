@@ -13,13 +13,31 @@ body {
 
 }
 
+header {
+   height: 200px;
+   width: 100VW;
+   background-color: blanchedalmond;
 
+}
+
+.exemplo {
+   display: inline-block;
+   max-height: 50px;
+   padding: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: aqua;
+   font-size: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 .slider {
     width: 100%;
     height: 400px;
     overflow: hidden;
-
+   position: absolute;
+   top: 100px;
 }
 
 .slides {
@@ -33,9 +51,9 @@ body {
 }
 
 .slide img {
-    width: 100%;
-    max-height: 400px;
-    min-height: 400px;
+    width: 100VW;
+    max-height: 30vh;
+    min-height: 30vh;
     
     
     
@@ -77,15 +95,15 @@ body {
  }
 
  #radio2:checked ~ .first {
-    margin-left: -20%;
+    margin-left: -25%;
  }
 
  #radio3:checked ~ .first {
-    margin-left: -40%;
+    margin-left: -50%;
  }
 
  #radio4:checked ~ .first {
-    margin-left: -60%;
+    margin-left: -75%;
  }
 
  .navigation-auto div {
@@ -127,12 +145,5 @@ body {
     background-color: #fff;
  }
 
- .conteudo {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: gold;
-   text-align: justify;
-   font-weight: bold;
-   background-image: url(aniversario-de-gramado-quatro-curiosidades-sobre-a-cidade-conexao123.jpg);
-   max-width: 300px;
- }
+ 
 
